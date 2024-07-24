@@ -2,15 +2,15 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
-global.owner = [['573027866596', 'EDER💻⁷', true],
+global.owner = [['51978194933', 'SYSSOLUTIONS💻⁷', true],
 ['50558124470', 'Ender owner🖥️', true]]
 
-global.botNumberCode = ''
+global.botNumberCode = '51978194933'
 global.confirmCode = ''
 
 global.suittag = ['573027866596']
-global.mods = []
-global.prems = []
+global.mods = ['51978194933']
+global.prems = ['51978194933']
 
 
 global.packname = 'ᥫ᭡nexus bot-𝙈𝘿ꨄ'
@@ -26,8 +26,8 @@ global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = 'GataNina-Li'
-global.devnum = '+593 96 826 3524'
+global.dev = 'SYSSOLUTIONS'
+global.devnum = '+51978194933'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
